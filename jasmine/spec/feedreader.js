@@ -43,7 +43,7 @@ $(function() {
       }
     });
   });
-  
+
 
   /* Test suite named "The menu" */
   describe('The menu', function() {
@@ -82,7 +82,7 @@ $(function() {
 
     it('There is an entry or more', function () {
       const feed = $('.feed .entry');
-      expect(feed.children.length).toBeGreaterThan(0);
+      expect(feed.length).toBeGreaterThan(0);
     })
 
   });
